@@ -1,0 +1,35 @@
+{
+  "name": "motion-one-scroll-x-react-three-fiber",
+  "version": "1.0.0",
+  "description": "How to mix Motion One's scroll function with React Three Fiber",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@motionone/utils": "10.12.0",
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "8.16.0",
+    "@react-three/fiber": "7.0.26",
+    "@react-three/postprocessing": "2.1.6",
+    "@types/three": "0.138.0",
+    "lamina": "1.0.6",
+    "leva": "0.9.23",
+    "motion": "10.12.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "0.138.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
