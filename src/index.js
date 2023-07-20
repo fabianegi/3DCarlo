@@ -11,10 +11,6 @@ import { App } from './App'
 
 render(
   <Suspense fallback={null}>
-    <div className="fullscreen">
-      <App />
-      <Overlay />
-    </div>
   </Suspense>,
   document.getElementById('root')
 )
@@ -22,12 +18,8 @@ render(
 function Overlay() {
   return (
     <>
-      <Footer
-        link1={<a href="https://github.com/pmndrs/drei">pmndrs/drei</a>}
-        link2={<a href="https://codesandbox.io/s/building-live-envmaps-lwo219">s/lwo219</a>}
-      />
       <div style={{ color: '#808080', position: 'absolute', top: 40, left: 40, fontSize: '13px' }}>
-        Motion One Scroll + React Three Fiber demo
+        Motion One Scroll Down and Up
       </div>
     </>
   )
