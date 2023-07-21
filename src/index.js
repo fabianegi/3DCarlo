@@ -13,6 +13,7 @@ render(
   <Suspense fallback={null}>
     <div className="fullscreen">
       <App />
+      <Overlay />
     </div>
   </Suspense>,
   document.getElementById('root')
